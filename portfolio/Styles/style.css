@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first-img{
+    background-image: url("../all media/coding-wallpaper.jpg");
+    background-position: center center;
+    background-size: max(1200px,100vw);
+    background-repeat: no-repeat;
+    width : 100vw;
+    height : 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(to top, #130437, #374d81); */
+}
+.first-img img{
+    height: 55vh;
+    width: 80vw;
+}
+nav {
+    display: flex;
+    background-color: grey;
+
+}
+nav ul{
+    /* height: 70px; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    background-color: grey;
+    border:1px solid black;
+    list-style: none;
+    padding: 23px 43px;
+}
+nav ul li:hover{
+    background-color: rgb(63, 59, 59);
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+header h1{
+    text-align: center;
+}
+.profile-picture{
+    width: 40%;
+    height:100%;
+}
+body{
+    background-color: rgb(0, 0, 40,0.9);
+    color: #38e909;
+}
+
+main div:hover{
+    background-color: rgb(0, 0, 35,0.9);
+    border: 2px sollid black;
+}
+
+/* About me */
+.about-container{
+    /* background-color: ; */
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    height: 35vh;
+}
+.about-container .img{
+    display: flex;
+    width: 250px;
+    height: 200px;
+    background-image: url("../all media/My photo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Skill section */
+#Skill{
+    padding: 2rem;
+}
+#Skill h2{
+    text-align: center;
+    margin: 1rem;
+}
+#Skill ol{
+    padding-left: 2rem;
+}
+#Skill ol li{
+    margin: 1rem;
+}
+/* Education Section */
+#Education {
+    /* background: #fff; */
+    padding: 2rem;
+}
+
+#Education table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#Education th,
+#Education td {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+#Education th {
+    /* background: #f4f4f4; */
+}
+
+/* Projects Section */
+#Project {
+    /* background: #f9f9f9; */
+    padding: 2rem;
+}
+#Project h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+#Project dl dt {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+#Project dl dd {
+    margin-left: 1rem;
+}
+#Project img {
+    display: block;
+    margin: 1rem auto;
+    max-width: 100%;
+}
+
+/* Experience Section */
+#Experience {
+    /* background: #f9f9f9; */
+    padding: 2rem;
+}
+
+#Experience ul {
+    list-style: none;
+    padding: 0;
+}
+
+#Experience ul li {
+    margin-bottom: 1rem;
+}
+
+details {
+    margin-left: 1rem;
+}
+
+/* Hobbies Section */
+#Hobbies {
+    /* background: #fff; */
+    padding: 2rem;
+    text-align: center;
+}
+#Hobbies p {
+    margin-bottom: 1rem;
+}
+
+/* Blog Section */
+#Blog {
+    /* background: #f4f4f4; */
+    padding: 2rem;
+    text-align: justify;
+}
+#Blog b {
+    color: #11cdcd;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 3rem;
+    padding: 1rem 0e;
+}

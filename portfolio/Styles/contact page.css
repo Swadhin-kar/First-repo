@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin-left:200px ;
+    margin-right: 180px;
+    box-sizing: border-box;
+}
+.box{
+    display: inline-block;
+    width: 40vw;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 18px;
+    box-shadow:9px 9px 9px grey;
+    border: none;
+}
+fieldset{
+    border-radius: 18px;
+    padding: 15px;
+}
+main{
+    display: inline-block;
+}
+label{
+    display: inline-block;
+}
+#name{
+    display: inline-block;
+}
