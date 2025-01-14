@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    border: border-box;
+}
+/* vh = 380
+vw = 1528 */
+/* navigation bar */
+.navbar{
+    display: flex;
+    height: 3.8rem;
+    /* height: 60px; */
+    width: 100%;
+    background-color: #0f1111;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-logo{
+    height: 3.5rem;
+    width: 100px;
+}
+.logo{
+    background-image: url('../all media/amazon_logo.png');
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+.nav-border{
+    border: 1.5px solid transparent;
+}
+
+.nav-border:hover{
+    border: 1.5px solid white;
+}
+
+.nav-address{
+    display: flex;
+    flex-direction: column;
+}
+
+.icon{
+    display: flex;
+}
+
+.add-first{
+    margin-left: 17px;
+    color: #cccccc;
+    font-size: 0.85rem;
+}
+
+.add-second{
+    margin-left: 15px;
+    font-size: 1rem;
+}
+
+.nav-search{
+    display: flex;
+    width: 45rem;
+    height: 40px;
+    /* background-color: red; */
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.nav-search select{
+    background-color: #f3f3f3;
+    height: 100%;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.nav-search input{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 4px 4px 4px 0px;
+}
+.search-icon{
+    height: 100%;
+    width: 45px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    color: #0f1111;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;   
+}
+.nav-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 2rem;
+}
+
+/* panel */
+.panel{
+    width: 100vw;
+    height: 5vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #232F3E;
+    color: white;
+}
+.panel .long{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+.long div{
+    padding: 0.5rem 1rem;
+}
+.panel a{
+    text-decoration: none;
+    color: white;
+}
+.short{
+    height: 100%;
+    font-size: 1rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 1rem;
+}
