@@ -147,3 +147,54 @@ span{
     align-items: center;
     padding: 0rem 1rem;
 }
+
+/* hero section */
+.hero-section{
+    background-image: url('../all media/hero_image.jpg');
+    height: 55vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    text-align: center;
+    width: 94vw;
+    padding: 10px 14px;
+    margin-bottom: 5vh;
+}
+.hero-msg a{
+    text-decoration: none;
+    color: #2162A1;
+}
+
+.shop-section{
+    background-color: #e2e7e6;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box{
+    background-color: white;
+    width: 23vw;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid black; */
+    padding: 20px 0px 15px 0px;
+    margin: 1rem 0rem;
+}
+.box-img{
+    background-size: cover;
+    width: 90%;
+    height: 19rem;
+}
+.box p{
+    color: #2162A1;
+}
+
